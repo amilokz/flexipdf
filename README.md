@@ -1,16 +1,62 @@
-# React + Vite
+FlexiPDF – Online PDF Tools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: https://flexipdf.vercel.app
 
-Currently, two official plugins are available:
+FlexiPDF is a responsive web application for managing and converting PDF files. It allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Convert PDF → Word
 
-## React Compiler
+Convert PDF → Images
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Merge multiple PDFs into one
 
-## Expanding the ESLint configuration
+Split PDFs into separate pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Convert Images → PDF
+
+Chat with a built-in PDF assistant
+
+Frontend is fully deployed on Vercel, and backend deployment is currently in progress.
+
+Tech Stack
+
+Frontend: React, Bootstrap, JavaScript
+
+Backend: Flask (Python), PyPDF2, pdf2docx, pdf2image
+
+Deployment: Vercel (frontend), Railway (backend in progress)
+
+Features
+
+PDF → Word / Images: Upload PDFs and download as Word documents or images.
+
+Merge & Split PDFs: Combine multiple PDFs or split one into multiple files.
+
+Images → PDF: Convert multiple images into a single PDF.
+
+Chatbot Assistant: Ask questions related to PDF operations.
+
+Responsive UI: Works on mobile and desktop devices.
+
+How to Use
+
+Open the Live Demo
+.
+
+Select the desired conversion or operation.
+
+Upload your file(s).
+
+Download the processed file.
+
+Future Work
+
+Complete backend deployment to Railway.
+
+Add user authentication and file history.
+
+Support more advanced PDF operations.
+
+License
+
+This project is open-source and free to use.
